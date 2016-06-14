@@ -1,0 +1,9 @@
+syntax = "proto2";
+option java_package="com.POD.iiit";
+option java_outer_classname="MessageUnit";
+
+message {
+    required int32 id = 1;
+    required String msgLine = 2;
+    required repeated int32 clock = 3;
+}
